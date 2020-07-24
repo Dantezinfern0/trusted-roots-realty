@@ -5,18 +5,19 @@ import Seller from './pages/Seller'
 import HomePage from './pages/HomePage'
 import NotFound from './pages/NotFound'
 import NavBar from './components/Nav'
+import Footer from './components/Footer'
 
 function App() {
   return (
     <Router>
       <NavBar />
-      <HomePage />
       <Switch>
         <Route exact path="/" component={HomePage}></Route>
         <Route exact path="/buyer" component={Buyer}></Route>
         <Route exact path="/seller" component={Seller}></Route>
         <Route path="*" component={NotFound}></Route>
       </Switch>
+      <Footer />
     </Router>
   )
 }
