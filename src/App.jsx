@@ -10,17 +10,9 @@ function App() {
     <Router>
       <header>
         <nav>
-          <ul>
-            <li>
               <Link to="/">Go Home</Link>
-            </li>
-            <li>
               <Link to="/buyer">Buyer</Link>
-            </li>
-            <li>
-              <Link to="/seller">Page 2</Link>
-            </li>
-          </ul>
+              <Link to="/seller">Seller</Link>
         </nav>
       </header>
       <Switch>
