@@ -13,7 +13,7 @@ import {
     // Jumbotron,
     // Button
 } from 'reactstrap';
-import { Link  } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 function NavBar() {
 const [isOpen, setIsOpen] = useState(true)
@@ -27,13 +27,13 @@ const [isOpen, setIsOpen] = useState(true)
                     <Collapse isOpen={isOpen} navbar>
                         <Nav className="ml-auto" navbar>
                             <NavItem>
-                                <Link to="/">Go Home</Link>
+                                <Link to="/">Home{' '}</Link>
                             </NavItem>
                             <NavItem>
-                                <Link to="/buyer">Buyer</Link>
+                                <Link to="/buyer">Buyer{' '} </Link>
                             </NavItem>
                             <NavItem>
-                                <Link to="/seller">Seller</Link>
+                                <Link to="/seller">Seller{' '}</Link>
                             </NavItem>
                         </Nav>
                     </Collapse>
