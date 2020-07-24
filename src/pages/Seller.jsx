@@ -1,17 +1,17 @@
 import React from 'react'
 import {
-  Collapse,
-  Navbar,
-  NavbarToggler,
-  NavbarBrand,
-  Nav,
-  NavItem,
-  NavLink,
+  // Collapse,
+  // Navbar,
+  // NavbarToggler,
+  // NavbarBrand,
+  // Nav,
+  // NavItem,
+  // NavLink,
   Container,
   Row,
-  Col,
+  // Col,
   Jumbotron,
-  Button
+  // Button
 } from 'reactstrap';
 
 function Seller() {
