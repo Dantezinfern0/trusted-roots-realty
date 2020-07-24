@@ -10,6 +10,7 @@ function App() {
   return (
     <Router>
       <NavBar />
+      <HomePage />
       <Switch>
         <Route exact path="/" component={HomePage}></Route>
         <Route exact path="/buyer" component={Buyer}></Route>
