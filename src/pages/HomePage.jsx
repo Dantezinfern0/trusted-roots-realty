@@ -16,7 +16,7 @@ import {
 
 function HomePage() {
   return <>
-  <Jumbotron>
+  <Jumbotron className="green-back">
     <Container>
       <Row>
         <h1>Please email us by clicking one of the buttons below</h1>
