@@ -9,7 +9,7 @@ import {
   // NavLink,
   Container,
   Row,
-  Col,
+  // Col,
   Jumbotron,
   Button
 } from 'reactstrap';
