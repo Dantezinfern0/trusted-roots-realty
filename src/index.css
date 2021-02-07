@@ -16,3 +16,6 @@ footer {
 .green-back {
   background-color: green !important;
 }
+.margin {
+  margin: 1rem;
+}

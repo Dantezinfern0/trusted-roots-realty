@@ -13,22 +13,22 @@ import {
   Jumbotron,
   Button
 } from 'reactstrap';
+import EmailForm from '../components/EmailForm'
 
 function HomePage() {
+  let links = ["mailto:info@trustedrootsrealty.com?Subject=Interested%20Buyer", "mailto:info@trustedrootsrealty.com?Subject=Interested%20Seller"]
   return <>
   <Jumbotron className="green-back">
     <Container>
       <Row>
         <h1>Please email us by clicking one of the buttons below</h1>
         <Row>
-        <Col>
-        <Button href="mailto:info@trustedrootsrealty.com?Subject=Interested%20Buyer">Interested Buyer</Button>
-        </Col>
-        <Col>
-        <Button href="mailto:info@trustedrootsrealty.com?Subject=Interested%20Seller">Interested Seller</Button>
-        </Col>
+          {links.map((l, i) => {return <div className="margin">
+            <Button key={i} href={l[i]}>Interested Buyer</Button>
+          </div>})}
         </Row>
       </Row>
+      <EmailForm />
     </Container>
   </Jumbotron>
 </>
